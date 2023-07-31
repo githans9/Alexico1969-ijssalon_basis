@@ -21,6 +21,9 @@ def onderstreep (tekst=""):
     uit . append ( len ( tekst) * "=")
     return uit
 
+def som ():
+    inkomsten = + som
+    
 
 
 
