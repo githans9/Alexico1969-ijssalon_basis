@@ -1,3 +1,5 @@
+
+
 def decoreer ( tekst = ""):
     lengte = len ( tekst) + 4
     print ()
@@ -21,8 +23,29 @@ def onderstreep (tekst=""):
     uit . append ( len ( tekst) * "=")
     return uit
 
-def som ():
-    inkomsten = + som
+
+inkomsten =   { 
+        " Aardbeien-ijs-totaal" : 1000 ,
+        " Vanille-ijs-totaal" : 2000,
+        " Chocolade-ijs-totaal" : 1500 ,
+        " Waterijsjes-totaal" : 750 , }
+
+values = inkomsten . values ()
+keys = inkomsten . keys ()
+#print ( values)
+#print ( keys)
+
+
+values = inkomsten . values ()
+keys = inkomsten . keys ()
+som = inkomsten
+def som (som):
+    global inkomsten
+som = values
+sum = sum ( values)
+#print ( (sum))
+
+
     
 
 

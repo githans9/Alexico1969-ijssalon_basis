@@ -1,21 +1,22 @@
 
-
+import csv
 from presentatie import presenteer
-from helper  import som
+from helper  import sum
 
-def inkomsten ():
-    inkomsten = { 
+
+inkomsten =   { 
         " Aardbeien-ijs-totaal" : 1000 ,
         " Vanille-ijs-totaal" : 2000,
         " Chocolade-ijs-totaal" : 1500 ,
-        " Waterijsjes-totaal" : 750 ,
-    }
+        " Waterijsjes-totaal" : 750 , }
 
-totaal_inkomsten = som
+for k, v in inkomsten . items ():
+ print (k, v)
+totaal_inkomsten = sum
+sum = totaal_inkomsten
 
-presenteer = inkomsten/ totaal_inkomsten
-
-print 
+print ( "-------------")
+print ( f" totaal : ", totaal_inkomsten)
 
 with open ( ' boekhuoding . csv', 'w' , newline= '' ) as csvfile :
     for key , value in inkomsten . items () :
