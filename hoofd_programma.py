@@ -1,3 +1,5 @@
+from flask import Flask
+app = Flask (__name__)
 
 from helper import  onderstreep
 
@@ -9,4 +11,7 @@ print ()
 for el in uitvoer :
 
  print (el)
-    
+
+@app.route ('/prijzen')
+def recepten ():
+    return " Binnenkort verschijnen hier enkele recepten "
